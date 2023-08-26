@@ -130,7 +130,7 @@ dist
 .pnp.*
 
 public/
+db.json
 
 package-lock.json
-
 yarn.lock
