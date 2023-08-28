@@ -271,7 +271,7 @@ comments:
   lazyload: false # 当评论进入浏览器视野时，评论系统将被加载。
   count: true # 顶部图显示评论数
   card_post_count: false # 首页显示评论数
-  commentBarrage: true # 仅支持twikoo
+  commentBarrage: false # 仅支持twikoo
 
 # waline
 # https://waline.js.org/
@@ -284,11 +284,11 @@ waline:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo.marcus233.top/
-  accessToken: 169d5f97a0f889913d83e04f40f3e442 # 如果commentBarrage开启则填 不要搞我
+  envId: https://twikoo.reardon.me/
+  accessToken: 
   region:
   option:
-  visitor: visitor@marcus233.top # 新定义: 是否开启匿名评论
+  visitor: true
 
 # Artalk
 # https://artalk.js.org/guide/frontend/config.html
