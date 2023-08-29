@@ -32,7 +32,7 @@ algolia_search:
 
 # 本地搜索 (Local search)
 local_search:
-  enable: false
+  enable: true
   preload: false
   CDN:
 
