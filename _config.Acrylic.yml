@@ -63,8 +63,8 @@ nav:
             class: out
   logo: 
     enable: true
-    class: img #i_class/text/img i_class为icon图标,text为文字,img为图片
-    custom: https://s2.loli.net/2023/08/29/X8694VvLrmeDZtH.png # heofont icon-heologo / Heo / https://xxx.com/logo.png/
+    class: text #i_class/text/img i_class为icon图标,text为文字,img为图片
+    custom: Reardon's Blog # heofont icon-heologo / Heo / https://xxx.com/logo.png/
   fps_enable: false
   menu:
     文库:
