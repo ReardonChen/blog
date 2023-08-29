@@ -10,14 +10,14 @@
 # --------------------------------
 
 # 网站图标 (favicon)
-favicon: https://s2.loli.net/2023/08/28/JmONcGDMXTWigQj.jpg
+favicon: https://s2.loli.net/2023/08/29/1Xqy5iHgNZah8o4.jpg
 
 # 头像 (avatar)
 avatar:
-  img: https://s2.loli.net/2023/08/28/JmONcGDMXTWigQj.jpg
+  img: https://s2.loli.net/2023/08/29/1Xqy5iHgNZah8o4.jpg
 
 # 默认信息 (default)
-default_img: https://s2.loli.net/2023/08/28/JmONcGDMXTWigQj.jpg
+default_img: https://s2.loli.net/2023/08/29/1Xqy5iHgNZah8o4.jpg
 default_title: 没有配置捏
 default_text: 没有配置捏
 
@@ -46,20 +46,20 @@ nav:
       - title: 博客
         a_item:
           - text: 主页
-            link: https://zhheo.com/
-            img: https://bu.dusays.com/2023/03/03/6401a7902b8de.png
+            link: https://reardon.me/
+            img: https://s2.loli.net/2023/08/29/1Xqy5iHgNZah8o4.jpg
             class: out
           - text: 博客
             link: /
-            img: https://bu.dusays.com/2023/03/03/6401a7902b8de.png
+            img: https://s2.loli.net/2023/08/29/EjqkoNr8samC1IT.png
             class: out
-          - text: 图片博客
-            link: https://plog.zhheo.com/
-            img: https://bu.dusays.com/2023/03/03/6401a7902b8de.png
+          - text: Uptime
+            link: https://uptime.reardon.me/
+            img: https://s2.loli.net/2023/08/29/kDxMjmyFItbUrL9.png
             class: out
-          - text: 开发博客
-            link: https://apps.zhheo.com/
-            img: https://bu.dusays.com/2023/03/03/6401a7902b8de.png
+          - text: Umami
+            link: https://umami.reardon.me/share/44HDdM45iJHZm8Br/Blog
+            img: https://s2.loli.net/2023/08/29/Px1aDQpo2V3YG8L.jpg
             class: out
   logo: 
     enable: true
