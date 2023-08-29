@@ -64,7 +64,7 @@ nav:
   logo: 
     enable: true
     class: text #i_class/text/img i_class为icon图标,text为文字,img为图片
-    custom: "Reardon's Blog" # heofont icon-heologo / Heo / https://xxx.com/logo.png/
+    custom: "Reardon's" # heofont icon-heologo / Heo / https://xxx.com/logo.png/
   fps_enable: false
   menu:
     文库:
