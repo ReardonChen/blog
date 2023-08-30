@@ -67,32 +67,32 @@ nav:
     custom: "Reardon's" # heofont icon-heologo / Heo / https://xxx.com/logo.png/
   fps_enable: false
   menu:
-    文库:
+    文章:
       文章列表: /archives/ || fas fa-box-archive
-      全部分类: /categories/ || fas fa-cube
-      全部标签: /tags/ || fas fa-tags
-      即刻短文: /essay/ || fas fa-bars-staggered
-    专栏:
-      设计报告: /tags/设计报告/ || fas fa-swatchbook
-      设计分享: /tags/Heocan/ || fas fa-object-group
-      设计工具: /tags/Sketch/ || fas fa-palette
-      视频混剪: /tags/混剪/ || fas fa-scissors
+      # 全部分类: /categories/ || fas fa-cube
+      # 全部标签: /tags/ || fas fa-tags
+      # 即刻短文: /essay/ || fas fa-bars-staggered
+    # 专栏:
+    #   设计报告: /tags/设计报告/ || fas fa-swatchbook
+    #   设计分享: /tags/Heocan/ || fas fa-object-group
+    #   设计工具: /tags/Sketch/ || fas fa-palette
+    #   视频混剪: /tags/混剪/ || fas fa-scissors
     友链:
-      友链鱼塘: /fcircle/ || fas fa-fish-fins
+      # 友链鱼塘: /fcircle/ || fas fa-fish-fins
       友情链接: /link/ || fas fa-user-group
-      宝藏博主: javascript:travelling() || fas fa-bus
+      # 宝藏博主: javascript:travelling() || fas fa-bus
     我的:
       我的装备: /equipment/ || fa-fw heofont icon-bijiben
-      在线工具: /tlink/ || fas fa-screwdriver-wrench
+      # 在线工具: /tlink/ || fas fa-screwdriver-wrench
       关于本站: /about/ || fas fa-sailboat
   right_button:
-    travelling:
-      enable: true
-      icon: heofont icon-train-line
-    random:
-      enable: true
-      icon: heofont icon-signal-tower-fill
-    search: heofont icon-search-2-line
+    # travelling:
+    #   enable: true
+    #   icon: heofont icon-train-line
+    # random:
+    #   enable: true
+    #   icon: heofont icon-signal-tower-fill
+    # search: heofont icon-search-2-line
     console:
       enable: true
       icon: heofont icon-dashboard-fill
@@ -164,14 +164,14 @@ about:
       - 脚踏实地行动派 🏃
       - 专攻各种困难 🧱
       - 人狠话不多 💢
-  job: 学生、独立开发者、博主
-  live: 中国，北京市
-  born: 1997
+  job: 学生 / 开发者 / OIer / HAM
+  live: 中国，山东省, 青岛市
+  born: 2009
   school: 大连工业大学
   can: 产品设计
   work: UI/产品
   character: 逻辑学家
-  character2: INTP-T
+  character2: INTP-A
   personalities: https://cdn.zhheo.com/public/svg/INTP-T.svg
   selfie: https://p.zhheo.com/202352d98ec86bef3388a0152b33cf9d06ad082002.png!cover
   maxim1: 荆棘之路，
@@ -203,7 +203,7 @@ post_meta:
     categories: true # 首页显示分类
     tags: true # 首页显示标签
     label: true # 首页显示文章描述
-  location: 成都 #地点
+  location: 青岛 #地点
 
 # # 文章顶部ai摘要
 tianliGPT:
@@ -491,8 +491,8 @@ footer:
       enable: true
       time: 2022
     right:
-      - text: 京ICP备1905135号
-        link: https://beian.miit.gov.cn/#/Integrated/index
+      - text: 萌ICP备20230442号
+        link: https://icp.gov.moe/?keyword=20230442
 
 # 侧边栏 (aside)
 # --------------------------------
