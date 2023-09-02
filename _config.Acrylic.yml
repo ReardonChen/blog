@@ -1,0 +1,334 @@
+site:
+  name:
+    class:  image
+    custom: /images/avatar.jpg
+  siteIcon: /images/avatar.jpg
+  icon: /images/avatar.jpg
+  icp: 萌ICP备20230442号
+
+nav:
+  left:
+    enable: true
+    menu:
+      我的:
+        主页:
+          icon: /images/avatar.jpg
+          url: //reardon.me
+        博客:
+          icon: /images/blog-icon.png
+          url: /
+        Uptime:
+          icon: /images/uptime-kuma.svg
+          url: //uptime.reardon.me/status/all
+        Umami:
+          icon: /images/umami.jpg
+          url: //umami.reardon.me/share/44HDdM45iJHZm8Br/Blog
+  menu:
+    文章:
+      url: false
+      child:
+        文章列表:
+          url: /archives/
+          icon: fas fa-box-archive
+        全部分类:
+          url: /categories/
+          icon: fas fa-cube
+        全部标签:
+          url: /tags/
+          icon: fas fa-tags
+    友链:
+      url: false
+      child:
+        友情链接:
+          url: /links/
+          icon: fas fa-user-group
+        友链接力:
+          url: //www.travellings.cn/go.html
+          icon: fas fa-bus
+        BlogFinder:
+          url: //bf.zzxworld.com/
+          icon: fa-solid fa-magnifying-glass
+    我的:
+      url: false
+      child:
+        我的装备:
+          url: /
+          icon: fa-solid fa-laptop
+        关于本站:
+          url: /
+          icon: fa-regular fa-address-card
+  right: # TODO
+    travellings: false
+    random: true
+    console: true
+
+# heo式顶部一大坨
+hometop:
+  bbtime: false
+  banner:
+    enable: true
+    title: 分享技术<br>与生活
+    url: blog.reardon.me
+    icon:
+      Docker:
+        img: /images/simple-icons/docker.svg
+        color: '#57b6e6'
+      Python:
+        img: /images/simple-icons/python.svg
+        color: '#ffffff'
+      CSS3:
+        img: /images/simple-icons/css3.svg
+        color: '#2c51db'
+      JS:
+        img: /images/simple-icons/javascript.svg
+        color: '#f7cb4f'
+      TS:
+        img: /images/simple-icons/typescript.svg
+        color: '#3178c6'
+      Git:
+        img: /images/simple-icons/git.svg
+        color: '#df5b40'
+
+  categoryGroup:
+    G1:
+      name: Acrylic
+      icon: fas fa-dove
+      url: /tags/Acrylic/
+    G2:
+      name: 热门文章
+      icon: fas fa-burn
+      url: /tags/热门/
+    G3:
+      name: 实用教程
+      icon: fas fa-book
+      url: /tags/教程/
+
+  recommendList:
+    sup: 置顶文章
+    title: 让Acrylic成为您的Hexo主题
+    url: /
+    img: /img/acrylic.png
+    color: '#006a73'
+
+# 个人卡片
+aside:
+  home:
+    noSticky: "about,flip"
+    Sticky: "newestPost,allInfo"
+  post:
+    noSticky: "about"
+    Sticky: "newestPost"
+  page:
+    noSticky: "about,flip"
+    Sticky: "newestPost,allInfo"
+
+  card:
+    avatar: 
+    content: 这有关于<b>开发</b>、<b>技术</b>相关的问题和看法，还有对于动漫的一些<b>杂评</b>。<br>相信你可以在这里找到对你有用的知识和教程。
+    information:
+      # Github:
+      #   icon: fa-brands fa-github
+      #   url: https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic-Next
+      # Mail:
+      #   icon: fa-solid fa-envelope
+      #   url: mailto:a@nalex.top
+    button:
+      text: 个人主页
+      url: /
+
+  flip:
+    color: '#0099FF'
+    face:
+      title: QQ群
+      desc: 加入官方QQ群与我们交流
+    backface:
+      title: 扫一扫
+      desc: 获取最新信息和帮助
+      img: /img/qqgroup.png
+
+  toc: 
+    post: true
+    page: false
+
+  # 建站时间
+  siteinfo:
+    postcount: true
+    wordcount: true
+    pv: false
+    uv: false
+    updatetime: true
+    runtimeenable: true
+    runtime: '2023-08-25 00:00:00'
+
+footer:
+  information:
+    left:
+      Github:
+        icon: fa-brands fa-github
+        url: //github.com/ReardonChen
+      Mail:
+        icon: fa-solid fa-envelope
+        url: mailto:reardon@reardon.me
+    right:
+      Feed:
+        icon: fa-solid fa-rss
+        url: /atom.xml
+      Donate:
+        icon: fa-brands fa-cc-stripe
+        url: //buy.stripe.com/7sI7ud0919I6h1ufYZ
+  group:
+    使用服务:
+      Zeabur: //zeabur.com?referralCode=ReardonChen
+      Hexo: //hexo.io
+      Acrylic-Next: //github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic-Next
+      'Uptime Kuma': //uptime.kuma.pet
+      Umami: //umami.is
+    # 导航:
+    #   文章归档: /archives/
+    #   文章分类: /categories/
+    #   文章标签: /tags/
+    #   友链: /link/
+    # 服务:
+    #   51la统计: https://51.la/
+    #   百度统计: https://tongji.baidu.com/
+    #   TianliCDN: https://ql.tianli0.top/
+    # Acrylic:
+    #   主题官网: https://acrylic.zhheo.com/
+    #   Github: https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic
+    #   Heo: https://blog.zhheo.com/
+    # 推荐友链:
+    #   Heo: https://blog.zhheo.com/
+    #   Akilar: https://akilar.top
+
+  randomlink: false
+
+  cdn:
+    url: //zeabur.com?referralCode=ReardonChen
+    desc: Deployed on Zeabur
+  rss:
+    url: /atom.xml
+  license:
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+    icon: fas fa-closed-captioning
+
+
+page:
+  error: true
+  tags: true
+  categories: true
+  default:
+    cover: /img/hello.jpg   
+
+# 文章页默认设置
+post:
+  default:
+    cover: /img/hello.jpg
+    locate: 北京
+    copyright: 原创
+  meta:
+    date: true
+    updated: false
+    locate: true
+    wordcount: false
+    readtime: false
+    pv: false
+    comment: false      
+  award:
+    enable: false
+    wechat:
+    alipay:
+    url:
+  covercolor: #文章cover取色  
+    enable: false
+    local: false  
+
+# 关于界面
+about: false
+
+# 404页面
+errorpage:
+  img: /img/acrylic.png
+  text: =awa= 页面走丢了
+  recommendList: true
+
+# 懒加载
+lazyload:
+  enable: false
+  placeholder: /img/acrylic.png
+  errorimg: /img/acrylic.png
+
+# 图片灯箱
+lightbox: true
+
+#代码高亮增强
+hightlight:
+  enable: false
+  hightlimit: 200
+
+# 加载动画
+loading:
+  fullpage: false
+  pace: false
+
+# 第三方设置
+thirdparty:
+  wordcount: true
+  busuanzi: 
+    enable: false
+    usecomment: false #当评论系统开启时文章页面使用评论系统的统计数据
+  search:
+    algolia_search:
+      enable: false
+      # hits:
+      #   per_page: 6
+    local_search:
+      enable: false
+      preload: false
+      CDN:
+    
+  aplayer:
+    enable: false
+    server: tencent
+    id: 1708664797  
+    api: "https://music.startly.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r" #自定义api    
+  #中控台拓展
+  consolePlus: true
+
+# 评论
+comment:
+  enable: true
+  twikoo:
+    envId: https://twikoo.reardon.me
+    # region: ap-shanghai
+    path: window.location.pathname
+
+
+# 插入代码到头部 </head> 之前 和 底部 </body> 之前
+# 插入额外代码 如：统计，广告等
+extends: 
+  head: # 在head中插入
+    # - <script></script>
+  body: # 在body中插入
+
+# 非必要勿动
+cdn:
+  head:
+    pacejs: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/pace/1.2.4/pace.min.js
+    fontawesomecss: https://cdn.bootcdn.net/ajax/libs/font-awesome/6.3.0/css/all.min.css
+    snackbarcss: /lib/snackbar.min.css
+    qrcodejs: /lib/qrcode.min.js
+    twikoojs: https://cdn.staticfile.org/twikoo/1.6.10/twikoo.all.min.js
+    instantsearch: https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/instantsearch.js/4.39.0/instantsearch.production.min.js
+    algolia: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/algoliasearch/4.12.1/algoliasearch-lite.umd.min.js
+  body:
+    swipercss: /lib/swiper.min.css
+    pjaxjs: /lib/pjax.min.js
+    lazyloadjs: /lib/lazyload.min.js
+    snackbarjs: /lib/snackbar.min.js
+    viewimagejs: /lib/view-image.min.js
+    waterfalljs: /lib/waterfall.min.js
+    swiperjs: /lib/swiper.min.js
+    busuanzijs: https://npm.elemecdn.com/penndu@1.0.0/bsz.js
+    aplayercss: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css
+    aplayerjs: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js
+    metingjs: lib/meting.min.js
