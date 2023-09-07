@@ -64,7 +64,7 @@ nav:
 
 # heo式顶部一大坨
 hometop:
-  bbtime: false
+  bbtime: true
   banner:
     enable: true
     title: 分享技术<br>与生活
@@ -243,7 +243,7 @@ post:
     local: false  
 
 # 关于界面
-about: false
+about: true
 
 # 404页面
 errorpage:
