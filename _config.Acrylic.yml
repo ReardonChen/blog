@@ -71,23 +71,38 @@ hometop:
     url: blog.reardon.me
     icon:
       Docker:
-        img: /images/simple-icons/docker.svg
+        img: //cdn.jsdelivr.net/npm/simple-icons@v9/icons/docker.svg
         color: '#57b6e6'
       Python:
-        img: /images/simple-icons/python.svg
+        img: //cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg
         color: '#ffffff'
       CSS3:
-        img: /images/simple-icons/css3.svg
+        img: //cdn.jsdelivr.net/npm/simple-icons@v9/icons/css3.svg
         color: '#2c51db'
       JS:
-        img: /images/simple-icons/javascript.svg
+        img: //cdn.jsdelivr.net/npm/simple-icons@v9/icons/javascript.svg
         color: '#f7cb4f'
       TS:
-        img: /images/simple-icons/typescript.svg
+        img: //cdn.jsdelivr.net/npm/simple-icons@v9/icons/typescript.svg
         color: '#3178c6'
       Git:
-        img: /images/simple-icons/git.svg
+        img: //cdn.jsdelivr.net/npm/simple-icons@v9/icons/git.svg
         color: '#df5b40'
+      C:
+        img: //cdn.jsdelivr.net/npm/simple-icons@v9/icons/c.svg
+        color: '#A8B9CC'
+      CPP:
+        img: //cdn.jsdelivr.net/npm/simple-icons@v9/icons/cplusplus.svg
+        color: '#00599C'
+      Premiere:
+        img: //cdn.jsdelivr.net/npm/simple-icons@v9/icons/adobepremierepro.svg
+        color: '#9999FF'
+      MSOffice:
+        img: //cdn.jsdelivr.net/npm/simple-icons@v9/icons/microsoftoffice.svg
+        color: '#D83B01'
+      LibreOffice:
+        img: //cdn.jsdelivr.net/npm/simple-icons@v9/icons/libreoffice.svg
+        color: '#18A303'
 
   categoryGroup:
     G1:
