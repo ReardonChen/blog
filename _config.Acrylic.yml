@@ -103,6 +103,9 @@ hometop:
       LibreOffice:
         img: //cdn.jsdelivr.net/npm/simple-icons@v9/icons/libreoffice.svg
         color: '#18A303'
+      Cloudflare:
+        img: //cdn.jsdelivr.net/npm/simple-icons@v9/icons/cloudflare.svg
+        color: '#F38020'
 
   categoryGroup:
     G1:
@@ -322,6 +325,7 @@ comment:
 # 插入额外代码 如：统计，广告等
 extends: 
   head: # 在head中插入
+    - '<style>.tags-group-icon{color:white;}</style>'
     # - <script></script>
   body: # 在body中插入
 
