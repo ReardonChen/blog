@@ -12,7 +12,7 @@ hexo.extend.injector.register(
             apiKey: '287b922719bf274446e7efe015eb5fbf',
             indexName: 'reardon',
             insights: true,
-            container: 'div#nav-right::before'
+            container: 'div#algolia_search',
             debug: true
         });
     </script>
