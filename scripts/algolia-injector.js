@@ -8,9 +8,9 @@ hexo.extend.injector.register(
     <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3"></script>
     <script type="text/javascript">
         docsearch({
-            appId: 1F91G08XY8,
-            apiKey: 287b922719bf274446e7efe015eb5fbf,
-            indexName: reardon,
+            appId: '1F91G08XY8',
+            apiKey: '287b922719bf274446e7efe015eb5fbf',
+            indexName: 'reardon',
             insights: true,
             container: 'div#nav-right::before'
             debug: true
