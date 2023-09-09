@@ -75,7 +75,7 @@ hometop:
         color: '#57b6e6'
       Python:
         img: //cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg
-        color: '#000000'
+        color: '#ffffff'
       CSS3:
         img: //cdn.jsdelivr.net/npm/simple-icons@v9/icons/css3.svg
         color: '#2c51db'
@@ -325,7 +325,6 @@ comment:
 # 插入额外代码 如：统计，广告等
 extends: 
   head: # 在head中插入
-    - '<style>.tags-group-icon{color:white;}</style>'
     # - <script></script>
   body: # 在body中插入
 
