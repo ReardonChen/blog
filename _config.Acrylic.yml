@@ -75,7 +75,7 @@ hometop:
         color: '#57b6e6'
       Python:
         img: //cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg
-        color: '#ffffff'
+        color: '#000000'
       CSS3:
         img: //cdn.jsdelivr.net/npm/simple-icons@v9/icons/css3.svg
         color: '#2c51db'
